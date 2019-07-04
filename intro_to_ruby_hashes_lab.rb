@@ -27,11 +27,7 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  if hash
-    hash[key] = "correctKey"
-  else 
-    hash = {key: nil}
-  end
+ hash[key]
 end
 
 def update_counting_hash(hash, key)
